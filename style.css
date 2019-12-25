@@ -41,25 +41,13 @@ td{padding-right:0em;}
 }
 
 #papers li{
-    display:none;
+/*    display:none; */
 }
 #seeAllPapers {
     color:blue;
     cursor:pointer;
 }
 #hideOldPapers {
-    color:blue;
-    cursor:pointer;
-}
-
-#softwares li{
-    display:none;
-}
-#seeAll {
-    color:blue;
-    cursor:pointer;
-}
-#hideOld {
     color:blue;
     cursor:pointer;
 }
