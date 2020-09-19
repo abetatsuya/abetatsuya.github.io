@@ -1,44 +1,19 @@
 body{margin-left:1em;}
 
-a:hover{color:#EE6600;}
-
 p{text-indent:2em;}
 p.ja{text-indent:1em;}
 
-ul.paper{list-style-type:none;
-padding: 0}
+ul.paper{
+    list-style-type:none;
+    padding: 0
+}
 
-ul.honor{list-style-type:none;
-padding-left: 1.5em}
-
-td{padding-right:0em;}
-
-.series{font-style:italic;}
-.booktitle{font-style:italic;}
-.journal{font-style:italic;}
 .smallcaps{font-variant: small-caps;}
 .papertitle{font-style:italic;}
 
 .right{text-align:right;}
 
-/* .applicant{text-decoration:underline;} */
 .applicant{font-weight:bold;}
-
-#contact {
-          width: 950px;
-}
-#address {
-          float: left;
-          width: 700px;
-}
-#image {
-          float: left;
-          width: 250px;
-}
-#footer {
-          clear: both;
-          width: 950px;
-}
 
 #papers li{
 /*    display:none; */
