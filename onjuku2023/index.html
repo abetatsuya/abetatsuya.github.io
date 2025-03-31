@@ -3,6 +3,7 @@
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <style>
   span.fraction { display:inline-flex; flex-direction:column; vertical-align:middle; text-align:center; }
   span.numerator { padding:0 0px; font-size: 90% }
@@ -64,18 +65,12 @@
   <dd>TBA</dd>
 </dl>
 
-<h2>講演者向け情報</h2>
+<div id="footer"></div>
 
-<dl>
-  <dt>セミナー室、スクリーン・プロジェクタ（HDMI）</dt>
-  <dd><img src="./room.jpg" /> <img src="./screen.jpg" /></dd>
-  <dt>ホワイトボード（メイン）、ホワイトボード（サブ）</dt>
-  <dd><img src="./whiteboard.jpg" /> <img src="./sideboard.jpg" /></dd>
-</dl>
-
-<h2>連絡先</h2>
-
-<p>世話人：安部 達也 &lang;(&lambda;X.abe.XaXsuya@iX-chiba.ac.jp)t&rang;</p>
-
+<script>
+  $(function() {
+      $("#footer").load("../onjuku/footer.html");
+  });
+</script>
 
 </body></html>
