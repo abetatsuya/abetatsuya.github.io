@@ -2,6 +2,7 @@ body{margin-left:1em;}
 
 p{text-indent:2em;}
 p.ja{text-indent:1em;}
+.emph{color:red;}
 
 ul.paper{
     list-style-type:none;
