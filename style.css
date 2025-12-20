@@ -2,7 +2,7 @@ body{margin-left:1em;}
 
 p{text-indent:2em;}
 p.ja{text-indent:1em;}
-.emph{color:red;}
+.emph{color: red;}
 
 ul.paper{
     list-style-type:none;
@@ -20,11 +20,11 @@ ul.paper{
 /*    display:none; */
 }
 #seeAllPapers {
-    color:blue;
+    color: blue;
     cursor:pointer;
 }
 #hideOldPapers {
-    color:blue;
+    color: blue;
     cursor:pointer;
 }
 
